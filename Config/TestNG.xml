@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1">
+    <test name="Testing get method in Reqres">
+        <classes>
+            <class name="Test.GetMethod"/>
+        </classes>
+    </test>
+    <test name="Testing put method in Reqres">
+        <classes>
+            <class name="Test.PostMethod"/>
+        </classes>
+    </test>
+    <test name="Deleting User on second page">
+        <classes>
+            <class name="Test.DeleteMethod"> </class>
+        </classes>
+    </test>
+
+</suite>
